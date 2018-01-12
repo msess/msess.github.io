@@ -12,7 +12,7 @@ Every time you want to make a change (especially if your previous change is in t
 2. Pull the latest changes to master
 3. Create a new branch: https://help.github.com/desktop/guides/contributing-to-projects/creating-a-branch-for-your-work/
 4. Make your changes
-5. Commit and push your changes: https://help.github.com/desktop/guides/contributing-to-projects/committing-and-reviewing-changes-to-your-project/
+5. Commit and push your changes (**Please write meaningful commit messages**): https://help.github.com/desktop/guides/contributing-to-projects/committing-and-reviewing-changes-to-your-project/
 
 ## Getting your changes merged onto the site
 In order to ensure all changes are good. We have a maintainer to check your changes. To enter your changes into the review process:
