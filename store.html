@@ -1,0 +1,28 @@
+---
+layout: products
+title: Store
+---
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+           <div class="section-title">
+            <h2>Store</h2>
+            <p></p>
+          </div>
+         <div class="section-title">
+	   <figure>
+	     <div style="display:flex">
+		{% for product in site.products %}
+		{% include product.html %}
+		{% endfor %}
+	     </div>
+	     <figcaption>{{ include.caption }}</figcaption>
+	   </figure>
+        </div>
+      </div><!-- .col-md-7 close -->
+    </div>
+  </div>
+</section>
+
