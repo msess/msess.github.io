@@ -1,0 +1,37 @@
+---
+layout: default
+head:
+    snipcart.html
+---
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+           <div class="section-title">
+            <h2>{{ page.name }}</h2>
+            <p></p>
+          </div>
+<div class="product-details">
+  <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+  <div class="product-description"></div></div>
+    <p>
+      {{ page.content }}
+    </p>
+
+    <button class="snipcart-add-item"
+	    data-item-name="{{ page.name }}"
+	    data-item-id="{{ page.sku }}"
+	    data-item-image="{{ page.image }}"
+	    data-item-url="{{ site.baseurl }}"
+	    data-item-price="{{ page.price }}">
+      Buy it for {{ page.price }} $
+    </button>
+  </div>
+</div>
+        </div>
+      </div><!-- .col-md-7 close -->
+    </div>
+  </div>
+</section>
+
