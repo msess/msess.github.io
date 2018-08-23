@@ -11,6 +11,6 @@ custom1-options: "Small|Medium|Large"
 custom1-value: "Medium"
 layout: productdetails
 ---
-Rep your Major! The first MSESS shirt designed by our own Ron C. In a couple years this will be retro and vintage so pick this up and cash in on how O.G you are.
+Rep your Major! The first MSESS shirt designed by our own Ron C. In a couple years this will be retro and vintage so pick this up now and have a lasting souvenir from your time as a MSE student.
 
 ![Sizing Chart for T-Shirts](/img/shop/shirtSizing.jpg "T-Shirt Sizing Chart")
