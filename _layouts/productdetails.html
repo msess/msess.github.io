@@ -6,7 +6,6 @@ head:
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
         <div class="block">
            <div class="section-title">
             <h2>{{ page.name }}</h2>
@@ -17,13 +16,8 @@ head:
 	    Number of items: <span class="snipcart-total-items"></span>
 	    Total price: <span class="snipcart-total-price"></span></p>
 	</div>
-<div class="product-details">
-  <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
-  <div class="product-description"></div></div>
-    <p>
-      {{ page.content }}
-    </p>
-
+	<div class="block">
+  <img src="{{ page.image_large }}" alt="{{ page.name }}" class="thumbnail"/>
     <button class="snipcart-add-item"
 	    data-item-name="{{ page.name }}"
 	    data-item-id="{{ page.sku }}"
@@ -35,8 +29,12 @@ head:
 	    data-item-price="{{ page.price }}">
       Buy it for {{ page.price }} $
     </button>
-  </div>
+
+    <p>
+      {{ page.content }}
+    </p>
 </div>
+
         </div>
       </div><!-- .col-md-7 close -->
     </div>
