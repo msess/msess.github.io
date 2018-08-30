@@ -17,8 +17,9 @@ head:
 	    Total price: <span class="snipcart-total-price"></span></p>
 	</div>
 	<div class="block">
-  <img src="{{ page.image_large }}" alt="{{ page.name }}" class="thumbnail"/>
-    <button class="snipcart-add-item"
+  <img src="{{ page.image_large }}" alt="{{ page.name }}" id="responsive-image" class="thumbnail"/>
+    <button type="button" class="btn btn-primary btn-lg btn-block">
+    <span class="snipcart-add-item"
 	    data-item-name="{{ page.name }}"
 	    data-item-id="{{ page.sku }}"
 	    data-item-image="{{ page.image }}"
@@ -29,6 +30,7 @@ head:
 	    data-item-price="{{ page.price }}">
       Buy it for {{ page.price }} $
     </button>
+    </span>
 
     <p>
       {{ page.content }}
