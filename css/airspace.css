@@ -809,3 +809,5 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+#responsive-image {  width: 100%;  height: auto; }

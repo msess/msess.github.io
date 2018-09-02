@@ -35,3 +35,10 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# For snipcart
+api_key: "MDg4MzQ4OGYtMDg2NS00NGM1LWI2MTUtY2FmMGI4Nzk5YmMyNjM2NjkyODAwOTU1NTI0NDky"
+
+collections:
+  products:
+    output: true

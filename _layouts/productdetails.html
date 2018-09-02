@@ -1,0 +1,45 @@
+---
+layout: default
+head:
+    snipcart.html
+---
+<section id="intro">
+  <div class="container">
+    <div class="row">
+        <div class="block">
+           <div class="section-title">
+               <font size="+2"><h2>{{ page.name }}</h2></font>
+            <p></p>
+          </div>
+	<a href="#" class="snipcart-checkout">Click here to checkout</a>
+	<div class="snipcart-summary">
+	    Number of items: <span class="snipcart-total-items"></span>
+	    Total price: <span class="snipcart-total-price"></span></p>
+	</div>
+	<div class="block">
+  <img src="{{ page.image_large }}" alt="{{ page.name }}" id="responsive-image" class="thumbnail"/>
+    <button type="button" class="btn btn-primary btn-lg btn-block">
+    <span class="snipcart-add-item"
+	    data-item-name="{{ page.name }}"
+	    data-item-id="{{ page.sku }}"
+	    data-item-image="{{ page.image }}"
+	    data-item-url="{{ page.produrl }}"
+	    data-item-custom1-name="{{ page.custom1-name}}"
+	    data-item-custom1-options="{{ page.custom1-options}}"
+	    data-item-custom1-value="{{ page.custom1-value}}"
+	    data-item-price="{{ page.price }}">
+      Pre-order it for {{ page.price }} $
+    </button>
+    </span>
+
+    <p>
+      {{ page.content }}
+    </p>
+</div>
+
+        </div>
+      </div><!-- .col-md-7 close -->
+    </div>
+  </div>
+</section>
+

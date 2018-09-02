@@ -38,3 +38,18 @@
  *
  */
 -->
+
+{% for script in layout.head %}
+{% include {{ script }} %}
+{% endfor %}
+
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MDg4MzQ4OGYtMDg2NS00NGM1LWI2MTUtY2FmMGI4Nzk5YmMyNjM2NjkyODAwOTU1NTI0NDky"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
