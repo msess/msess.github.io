@@ -7,10 +7,12 @@ sku: MSESSshirt2018-1
 image: /img/shop/MSESSshirt2018.png
 image_large: /img/shop/MSESSshirt2018_Large.png
 custom1-name: "Size"
-custom1-options: "Small|Medium|Large"
+custom1-options: "Small|Medium|Large|XL"
 custom1-value: "Medium"
 layout: productdetails
 ---
-Rep your Major! The first MSESS shirt designed by our own Ron C. In a couple years this will be retro and vintage so pick this up now and have a lasting souvenir from your time as a MSE student.
+Rep your Major! The first MSESS shirt designed by our own Ron Calara. In a couple years this will be retro and vintage so pick this up now and have a lasting souvenir from your time as a MSE student.
+
+The design on the shirt is printed graphics.
 
 ![Sizing Chart for T-Shirts](/img/shop/shirtSizing.jpg "T-Shirt Sizing Chart")

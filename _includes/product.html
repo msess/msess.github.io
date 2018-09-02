@@ -1,10 +1,13 @@
 <div class="product">
 
+  <div class="snipcart-summary">
+  <p><h5>{{ product.name }}</p></h5>
+  </div>
   <a class="product" href="{{ site.baseurl }}{{ product.url }}">
     <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
-    <p>{{ product.name }}</p>
   </a>
 
+   <div align="center">
   <button type="button" class="btn btn-primary">
   <span class="snipcart-add-item"
 	  data-item-name="{{ product.name }}"
@@ -18,5 +21,6 @@
     Pre-order it for {{ product.price }} $
   </button>
     </span>
+  </div>
 
 </div>
