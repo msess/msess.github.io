@@ -1,7 +1,7 @@
 ---
 name: MSESS zip-up hoodie
 price: 52.51
-produrl: https://msess.ca/products/tshirt.html
+produrl: https://msess.ca/products/hoodie.html
 slug: MSESS-zipup
 sku: MSESSzipup2018-1
 image: /img/shop/MSESShoodie2018.png
