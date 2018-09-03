@@ -15,4 +15,4 @@ Rep your Major! The first MSESS shirt designed by our own Ron Calara. In a coupl
 
 The design on the shirt is printed graphics.
 
-![Sizing Chart for T-Shirts](/img/shop/shirtSizing.jpg "T-Shirt Sizing Chart")
+<img src="/img/shop/shirtSizing.jpg" alt="T-Shirt Sizing Chart" id="responsive-image" class="thumbnail"/>

@@ -15,4 +15,4 @@ Rep your Major! The first MSESS zip-up hoodie designed by our own Kyra Pukanich.
 
 The design on the sweatshirt is printed graphics.
 
-![Sizing Chart for Zip-up Hoodies](/img/shop/zipupSizing.png "Zip-up Sizing Chart")
+<img src="/img/shop/zipupSizing.png" alt="Zip-up Sizing Chart" id="responsive-image" class="thumbnail"/>
