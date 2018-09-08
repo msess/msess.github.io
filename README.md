@@ -1,17 +1,10 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+# MSESS Website
+We serve to represent all students enrolled in Mechatronic Systems Engineering Program offered at SFU Surrey Campus.
 
-This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
+## Docs
+Written by anjan@momi.ca. Please email him if these need things added or you have any questions. If you are a new VP services please read and understand all of these. Keep these updated as you fix things. Clarify and add things I may have missed. Documentation is very important and your work may be useless to a future VP Services if you do not document well. I have included notes in these guides on what you should do as soon as you are appointed as a VP services and what you should do when you are leaving the position.
 
-## Usage
-To start your project, [fork this respository](https://github.com/luminousrubyist/airspace-jekyll/fork), put in your content, and go!
-
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
+- Installing jekyll (Documenting soon)
+- [Learn git workflow for this project](https://github.com/msess/msess.github.io/blob/master/CONTRIBUTING.md)
+- [Shop Maintainence](https://github.com/msess/msess.github.io/wiki/shop)
+- [DNS Maintainence/Why you shouldnt migrate](https://github.com/msess/msess.github.io/wiki/Domain)
