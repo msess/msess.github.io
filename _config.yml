@@ -42,3 +42,5 @@ api_key: "YmQ1ODE2Y2EtNjBkNi00OTY5LTgxZGQtOTMyODU1OWRmMTZkNjM2NjkyODAwOTU1NTI0ND
 collections:
   products:
     output: true
+  people:
+    output: true
