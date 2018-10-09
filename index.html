@@ -22,13 +22,11 @@ permalink: /
 <section id="intro">
   <div class="container">
     <div class="row">
-          <div class="section-title">
-            <h2>Latest News and Upcoming Events</h2>
-            <p></div>
-
-<a href="https://goo.gl/forms/ErbKhG3JmmPLuTFJ3"><img src="img/FroshRegistrationPoster_open-01.jpg" alt="Advertisement for MSESS Frosh" width="100%" ></a>
       <div class="col-md-7 col-sm-12">
         <div class="block">
+          <div class="section-title">
+            <h2>Latest News and Upcoming Events</h2>
+             <p>
                 {% for post in site.posts %}
                 <div class="post-area">
                 <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
