@@ -88,7 +88,7 @@ px      68    160    252    344    436    528    620    712    */
   }
   #portfolio-work .block .portfolio-contant ul li a .img-heading h2 {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 0px;
   }
   #portfolio-work .block .portfolio-contant ul li a .img-heading p {
     font-size: 11px;
@@ -169,7 +169,7 @@ px      68    160    252    */
     font-size: 18px;
   }
   p {
-    font-size: 13px;
+    font-size: 20px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -183,10 +183,10 @@ px      68    160    252    */
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 20px;
   }
   /*--
 	wrapper Start 
