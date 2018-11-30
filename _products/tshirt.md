@@ -12,6 +12,7 @@ custom1-value: "Medium"
 layout: productdetails
 ---
 
+<div id="error-message"></div>
 
 <script>
   var stripe = Stripe('pk_live_wARa4mFGWVywv5pm543vz3c8', {
@@ -23,7 +24,11 @@ layout: productdetails
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_E4BW72GrOLmtTC', quantity: 1}],
+      items: [{sku: 'sku_E0PRxctI2GFjUR', quantity: 1}],
+
+      // Note that it is not guaranteed your customers will be redirected to this
+      // URL *100%* of the time, it's possible that they could e.g. close the
+      // tab between form submission and the redirect.
       successUrl: 'https://msess.ca/success',
       cancelUrl: 'https://msess.ca/canceled',
     })
@@ -37,7 +42,6 @@ layout: productdetails
     });
   });
 </script>
-
 
 Rep your Major! The first MSESS shirt designed by our own Brindan Ramalingam. In a couple years this will be retro and vintage so pick this up now and have a lasting souvenir from your time as a MSE student.
 
