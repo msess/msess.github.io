@@ -13,7 +13,7 @@ layout: productdetails
 ---
 
 <script>
-  var stripe = Stripe('pk_live_wARa4mFGWVywv5pm543vz3c8', {
+  var stripe = Stripe('pk_test_vsRUomLbQ28xQRHMTYafDxL3', {
     betas: ['checkout_beta_3']
   });
 
@@ -22,7 +22,7 @@ layout: productdetails
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_E0PRxctI2GFjUR', quantity: 1}],
+      items: [{sku: 'sku_E4BW72GrOLmtTC', quantity: 1}],
       successUrl: 'https://msess.ca/success',
       cancelUrl: 'https://msess.ca/canceled',
     })
