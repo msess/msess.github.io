@@ -25,13 +25,10 @@ layout: productdetails
     // them to Checkout.
     stripe.redirectToCheckout({
       items: [{sku: 'sku_E0PRxctI2GFjUR', quantity: 1}],
-<<<<<<< HEAD
 
       // Note that it is not guaranteed your customers will be redirected to this
       // URL *100%* of the time, it's possible that they could e.g. close the
       // tab between form submission and the redirect.
-=======
->>>>>>> parent of 8323c5b... testing nojs shop
       successUrl: 'https://msess.ca/success',
       cancelUrl: 'https://msess.ca/canceled',
     })
