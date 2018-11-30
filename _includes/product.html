@@ -1,26 +1,14 @@
 <div class="product">
 
-  <div class="snipcart-summary">
   <p><h5>{{ product.name }}</p></h5>
-  </div>
   <a class="product" href="{{ site.baseurl }}{{ product.url }}">
     <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
   </a>
 
    <div align="center">
   <button type="button" class="btn btn-primary">
-  <span class="snipcart-add-item"
-	  data-item-name="{{ product.name }}"
-	  data-item-id="{{ product.sku }}"
-	  data-item-image="{{ product.image }}"
-	  data-item-url="{{ product.produrl }}"
-	  data-item-custom1-name="{{ product.custom1-name}}"
-	  data-item-custom1-options="{{ product.custom1-options}}"
-	  data-item-custom1-value="{{ product.custom1-value}}"
-	  data-item-price="{{ product.price }}">
-    Pre-order it for {{ product.price }} $
+    Learn more
   </button>
     </span>
   </div>
-
 </div>
