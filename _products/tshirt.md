@@ -12,8 +12,10 @@ custom1-value: "Medium"
 layout: productdetails
 ---
 
+<script src="https://js.stripe.com/v3"></script>
+
 <script>
-  var stripe = Stripe('pk_test_vsRUomLbQ28xQRHMTYafDxL3', {
+  var stripe = Stripe('pk_live_wARa4mFGWVywv5pm543vz3c8', {
     betas: ['checkout_beta_3']
   });
 
