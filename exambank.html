@@ -1,0 +1,42 @@
+---
+layout: products
+title: Exam Bank
+---
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+           <div class="section-title">
+            <h2>Exam Bank</h2>
+            </br>
+            The exams here have been graciously donated by members of MSESS. If you would like to donate an exam you have, please send an email to services@msess.ca with your exam or give it to an member of the MSESS exec team.</br>
+            </br>
+            <b>  This website is intended for educational purposes only. MSESS does not claim to own any of these documents, they are the property of their respectful owners. If you feel any of the material should be taken down, please contact me and it will be taken down immediately.</b>
+            {% for image in site.static_files %}
+                {% if image.name != "README.md" %}
+                    {% if image.path contains 'exams' %}
+                        {% assign pathArray = image.path | split: "/" %}
+                        {% if lastClass !=  pathArray[2] %}
+                            <h3>{{ pathArray[2] }}</h3>
+                        {% endif %}
+                        {% assign lastClass = pathArray[2] %}
+
+                        {% if lastType !=  pathArray[3] %}
+                            <h4>{{ pathArray[3] }}</h4>
+                        {% endif %}
+
+                        {% assign lastType = pathArray[3] %}
+
+                        <a href="{{ image.path }}">{{image.name}}</a> </br>
+
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div><!-- .col-md-7 close -->
+    </div>
+  </div>
+</section>
+

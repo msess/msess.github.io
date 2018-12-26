@@ -1,0 +1,3 @@
+[submodule "exams"]
+	path = exams
+	url = https://github.com/msess/exams.git
