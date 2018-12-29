@@ -15,6 +15,7 @@ title: Exam Bank
             <b>  This website is intended for educational purposes only. MSESS does not claim to own any of these documents, they are the property of their respectful owners. If you feel any of the material should be taken down, please contact me and it will be taken down immediately.</b>
             {% for image in site.static_files %}
                 {% if image.name != "README.md" %}
+                {% unless image.path contains "common"%}
                     {% if image.path contains 'exams' %}
                         {% assign pathArray = image.path | split: "/" %}
                         {% if lastClass !=  pathArray[2] %}
@@ -31,6 +32,7 @@ title: Exam Bank
                         <a href="{{ image.path }}">{{image.name}}</a> </br>
 
                     {% endif %}
+                {% endunless %}
                 {% endif %}
             {% endfor %}
           </div>
