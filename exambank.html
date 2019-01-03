@@ -18,9 +18,13 @@ title: Exam Bank
                 {% unless image.path contains "common"%}
                     {% if image.path contains 'exams' %}
                         {% assign pathArray = image.path | split: "/" %}
+
                         {% if lastClass !=  pathArray[2] %}
                             <h3>{{ pathArray[2] }}</h3>
+                            <h4>{{ pathArray[3] }}</h4>
+                            {% assign lastType = pathArray[3] %}
                         {% endif %}
+
                         {% assign lastClass = pathArray[2] %}
 
                         {% if lastType !=  pathArray[3] %}
