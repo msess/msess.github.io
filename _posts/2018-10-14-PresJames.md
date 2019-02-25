@@ -8,8 +8,8 @@ A new initiative that msess will be persuing is getting members that go to confe
 
 First up, we have James (Our VP External) presenting what he learned at President Meeting 2018 in New Brunswick. Enjoy!
 
-<video class="video-js vjs-16-9" data-setup="{}" height="668.25" width="1188" controls>
-  <source src="https://momi.ca/media/PM2018James.webm" id="responsive-image" type="video/webm">
+<video class="video-js vjs-16-9" data-setup="{}" height="auto" width="100%" controls>
+  <source src="http://vault.sfu.ca/index.php/s/WIJp59HXdt1g60k/download" id="responsive-image" type="video/webm">
   <p>Your browser does not support HTML5 video.</p>
 </video>
 
