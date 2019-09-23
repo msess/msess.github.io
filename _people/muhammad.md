@@ -1,6 +1,6 @@
 ---
 name: Muhammad Abid
-position: CO-VP EVENTS
+position: VP External
 group: Executive
 image: /img/portfolio/Muhammad.jpg
 short: Muhammad

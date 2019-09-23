@@ -1,6 +1,6 @@
 ---
 name: James Liu
-position: VP External
+position: President
 group: Executive
 image: /img/portfolio/James.jpg
 short: James

@@ -1,7 +1,7 @@
 ---
-name: Shreyas Kakulavarapu
+name: Duncan
 position: VP Finance
 group: Executive
 image: /img/portfolio/Shreyas.jpg
-short: shreyas
+short: duncan
 ---
