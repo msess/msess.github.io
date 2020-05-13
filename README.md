@@ -12,3 +12,19 @@ Originally written by anjan@momi.ca. Please email him if you have any questions.
 - Installing jekyll (Documenting soon)
 - [Learn git workflow for this project](https://github.com/msess/msess.github.io/blob/master/CONTRIBUTING.md)
 - [DNS Maintainence/Why you shouldnt migrate](https://github.com/msess/msess.github.io/wiki/Domain)
+
+# Editing locally
+
+Install [ruby](https://www.ruby-lang.org/en/) and [bundler](https://bundler.io/). 
+Change into the directory with this source.
+
+To install dependancies run:
+```
+bundle
+```
+
+To serve the website, run:
+
+```
+bundle exec jekyll serve
+```
